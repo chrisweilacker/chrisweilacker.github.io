@@ -64,20 +64,27 @@
     
                <section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">Latest Software Engineering Projects</h2>
+                        <h2 class="heading">Personal Software Engineering Projects</h2>
                          <div class="content">    
-                                               
+                                                                        
                             <div class="item featured text-center">
-                                <h3 class="title"><a href="#" target="_blank">Coding Challenges Passed and Testimonials Recieved</a></h3>
-                                <p class="summary">In this <a href="https://github.com/chrisweilacker/Coding_Challenges" target="_blank">Repo</a>, you can see that I have passed multiple Software Engineering technical exams including tests for AngelList, TripleByte, Hired.com and LinkedIn.                                </p>
+                                <h3 class="title"><a href="#" target="_blank">Fullstack Movie Reviews Service - Similar to Rotten Tomatoes</a></h3>
+                                <p class="summary">Take a look at the <a href="https://github.com/chrisweilacker/Rotten_Tomatoes_Scoreboard_Service" target="_blank">Rotten Tomotoes Movie Reviews Service</a>, that my team built.  I was in charge of the Scoreboard, Video Player and poster service. Built utilizing Service Oriented Architecture this project gave me the chance to learn and utilize Angular, EC2 and Docker</p>
                                 <div class="featured-image has-ribbon">
                                     <a href="https://github.com/chrisweilacker/Coding_Challenges" target="_blank">
                                     <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" />
                                     </a>
                                 </div>
                                     
-                                <div class="desc text-left">                                    
-                                    <p>As you can see from the coding challanges above and the <a href="#testimonials">testimonials</a> below I am technically skilled enough to add value to your organization, maybe its time to stop browsing and send me your companies take home Challenge?</p>
+                                <div class="desc text-left"> 
+                                    <h3 class="title">Rotten Tomotoes Movie Review Service</h3>
+                                    <ul>                                           
+                                        <li>Developed Rotten Tomato Clone App Service in Angular and NodeJS through Test Driven Development utilizing Travis CI.</li>
+                                        <li>Utilized MySQL backend to analyze critic ratings and display scores based on the aggregated data from MySQL.</li>
+                                        <li>Implemented a Proxy Server that utilized service oriented architecture combining my video, poster and critic review scoreboard with my other team members services such as showtimes and user reviews into a complete item page.</li>
+                                        <li>Deployed App on AWS EC2 assembled via Docker.</li>
+                                    </ul>                                
+                                    <p>Please take the time to check out my <a href="#testimonials">testimonials and recommendations</a> below.</p>
                                 </div><!--//desc-->         
                                  <a class="btn btn-cta-secondary" href="mailto:chrisweilacker@gmail.com?subject=Opportunity" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me...</a>                 
                             </div><!--//item -->
@@ -88,28 +95,17 @@
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/liskov-sdc/zillowish-facts-features" target="_blank">Zillowish - Zillow Clone</a></h3>
-                                    <p class="mb-2">- Developed a Zillow Clone App Service in React and Express with JEST Test Suite.
-                                        </br>- Benchmarked MySql, Postgres & Mongo databases with 10 Million records and chose Postgres.
-                                        </br>- Implemented a Proxy Server that utilized service oriented architecture.
-                                        </br>- Utilized New Relic and K6 to implement performance testing on my service and proxy both in development and deployed on EC2. Optimized my app by implementing NGINX caching, sever side rendering and scaling to handle up to 20K RPS to my backend API.</p>
+                                    <ul>
+                                    <li>Developed a Zillow Clone App Service in React and Express with JEST Test Suite.</li>
+                                        <li>Benchmarked MySql, Postgres & Mongo databases with 10 Million records and chose Postgres.</li>
+                                        <li>Implemented a Proxy Server that utilized service oriented architecture.</li>
+                                        <li>Utilized New Relic and K6 to implement performance testing on my service and proxy both in development and deployed on EC2. Optimized my app by implementing NGINX caching, sever side rendering and scaling to handle up to 20K RPS to my backend API.</li>
+                                    </ul>
                                     <p><a class="more-link" href="https://github.com/liskov-sdc/zillowish-facts-features" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="assets/images/projects/rottentomoto-Large.jpeg" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/rottentomoto.jpg" alt="Rotten Tomotoes" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://github.com/chrisweilacker/Rotten_Tomatoes_Scoreboard_Service" target="_blank">Rotten Tomotoes - RT Clone</a></h3>
-                                    <p class="mb-2">- Developed Rotten Tomato Clone App Service in Angular and NodeJS through Test Driven Development utilizing Travis CI.
-                                        </br>- Utilized MySQL backend to analyze critic ratings and display scores based on the aggregated data from MySQL.
-                                        </br>- Implemented a Proxy Server that utilized service oriented architecture combining my video, poster and critic review scoreboard with
-                                        my other team members services such as showtimes and user reviews into a complete item page.
-                                        </br>- Deployed App on AWS EC2 assembled via Docker.</p>
-                                    <p><a class="more-link" href="https://github.com/chrisweilacker/Rotten_Tomatoes_Scoreboard_Service" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+
                             
                              <div class="item row">
                                 <a class="col-md-4 col-12" href="https://github.com/chrisweilacker/Workout_Timer" target="_blank">
@@ -117,10 +113,12 @@
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/chrisweilacker/Workout_Timer" target="_blank">Custom Workout Timer</a></h3>
-                                    <p class="mb-2">- Built a Mobile App in React Native that allows one to create and save custom workout timers.
-                                        </br>- Implemented Login with Google OAuth and Firebase to save a users timers to MongoDB utilizing a Python Flask backend.
-                                        </br>- Converted my Python Flask backend to AWS Lambda Serverless functions with a Mongo RDS Database.
-                                        </br>- Deployed App to my Android Pixel 3 utilizing AWS to handle backend functions and utilize the app daily for my morning workout.</p>
+                                    <ul>
+                                        <li>Built a Mobile App in React Native that allows one to create and save custom workout timers.</li>
+                                        <li>Implemented Login with Google OAuth and Firebase to save a users timers to MongoDB utilizing a Python Flask backend.</li>
+                                        <li>Converted my Python Flask backend to AWS Lambda Serverless functions with a Mongo RDS Database.</li>
+                                        <li>Deployed App to my Android Pixel 3 utilizing AWS to handle backend functions and utilize the app daily for my morning workout.</li>
+                                    </ul>
                                     <p><a class="more-link" href="https://github.com/chrisweilacker/Workout_Timer" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
@@ -131,10 +129,12 @@
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/chrisweilacker/Route-Planner" target="_blank">Route Planner A* Algorithm in Python</a></h3>
-                                    <p class="mb-2">- Built a route-planning algorithm like the one used in Google Maps with Python 3.
-                                    </br>- Utilized the A* algorithm to find and calculate the shortest path between two points on the map.
-                                    </br>- Developed a Network Graph object serialized in a pickle file to represent two different maps a simple and complicated map with 10 to 40 points with Edges describing distances between points.
-                                    </br>- Tested resulting algorithm with a set of 6 tests and implemented a way to show the resulting routes.</p>
+                                    <ul>
+                                        <li>Built a route-planning algorithm like the one used in Google Maps with Python 3.</li>
+                                        <li>Utilized the A* algorithm to find and calculate the shortest path between two points on the map.</li>
+                                        <li>Developed a Network Graph object serialized in a pickle file to represent two different maps a simple and complicated map with 10 to 40 points with Edges describing distances between points.</li>
+                                        <li>Tested resulting algorithm with a set of 6 tests and implemented a way to show the resulting routes.</li>
+                                    </ul>
                                     <p><a class="more-link" href="https://github.com/chrisweilacker/Route-Planner" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
@@ -145,19 +145,13 @@
                 
                 <section class="projects section">
                     <div class="section-inner">
-                        <h2 class="heading">Github Open Source Project Contributions</h2>
+                        <h2 class="heading">Other Github Open Source Project Contributions</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title"><a href="https://github.com/Automattic/mongoose" target="_blank">Mongoose</a></h3>
                                 <p class="summary">MongoDB object modeling designed to work in an asynchronous environment. I contributed to the project by fixing a good chunk of errors in the Documentation that were causing some of my students issues on their sprints.</p>
                                 <p><a class="more-link" href="https://github.com/Automattic/mongoose" target="_blank"><i class="fas fa-external-link-alt"></i>Go to Project...</a></p>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/chrisweilacker/Please-Contain-Yourself" target="_blank">Please Contain Yourself</a></h3>
-                                <p class="summary">A Docker tutorial written for people who don't actually know Docker already. I contributed to this project by updating this great tutorial to be in line with the latest version of Docker, since it was written 2 years ago.</p>
-                                <p><a class="more-link" href="https://github.com/chrisweilacker/Please-Contain-Yourself" target="_blank"><i class="fas fa-external-link-alt"></i>Go to Project...</a></p>
-                            </div><!--//item-->
-                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -168,9 +162,12 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Software Engineering Immersive Resident - <span class="place"><a href="https://www.hackreactor.com/">Hack Reactor @ Galvanize</a></span> <span class="year">(2019 - Present)</span></h3>
-                                <p>-Debugged several hundred hours worth of student's code, guiding students to industry best practices via targeted questions that allow students to lead themselves to the answer.
-                                    </br>- Mentored over 50 students, helping them to grasp fundamental Computer Science and Full-Stack Web Development concepts.
-                                    </br> - Built and updated several applications and tools to increase community engagement and accountability for the Remote program.</p>
+                                <ul>
+                                    <li>Mentored over 25 students, helping them to grasp fundamental Computer Science and Full-Stack Web Development concepts primarily in the MERN (Mongo/MySql, Express, React, Node) stack.</li> 
+                                    <li>Debugged several hundred hours worth of student's code, guiding students to industry best practices via targeted questions that allow students to lead themselves to the answer.</li>
+                                    <li>Built and updated web applications and tools to increase community engagement and accountability for the Remote program.</li>
+                                    <li>Created web-based curriculum in Angular to be utilized by the Enterprise instruction team for custom onsite training at Companies such as DISH, IBM, and Allstate. Developed Docker containers to run headless browsing testing suites on curriculum.</li>
+                                </ul>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Senior Technical and Financial Consultant for the PLCN - <span class="place"><a href="https://pldcglobal.com">PLDC</a></span> <span class="year">(2015 - 2018)</span></h3>
@@ -179,7 +176,11 @@
                             
                             <div class="item">
                                 <h3 class="title">Founder/Team Lead - <span class="place"><a href="#">ChengChe</a></span> <span class="year">(2012 - 2013)</span></h3>
-                                <p>I was a Team Lead & Founder for ChengChe.com, a Technology start-up company developing mobile solutions to China's traffic problems through carpooling and a taxi mobile application, starting with Beijing which was listed by IBM as having the worst traffic in the world.</p>
+                                <ul>
+                                        <li>Led a Team as a founder of ChengChe developing a mobile solution to China’s traffic problems through a carpooling and Taxi app.</li> 
+                                        <li>Produced a prototype App in Objective C that mimicked the real world functionality of an Uber like platform, during Uber’s launch.</li>
+                                        <li>Founded in Beijing, China which was listed by IBM as having the worst traffic in the world in that year.</li>
+                                </ul>
                             </div><!--//item-->
                             
                         </div><!--//content-->  
